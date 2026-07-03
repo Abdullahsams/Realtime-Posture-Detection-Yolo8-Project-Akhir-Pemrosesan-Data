@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['sitting_bad', 'sitting_good']
+
+roboflow:
+  workspace: abdullah-5vy0d
+  project: abdullah-5vy0d
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/abdullah-5vy0d/abdullah-5vy0d/dataset
